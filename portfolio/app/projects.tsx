@@ -8,7 +8,7 @@ export const projects = [
   {
     title:"Mini-Sumo",
     imageName: "MiniSumo.png",
-    content: "Jest to projekt robora którego zadaniem jest wypchniecie przeciwnika z poza ringu.",
+    content: "Jest to projekt robota którego zadaniem jest wypchniecie przeciwnika z poza ringu.",
     url: "/minisumo"
   },
   {
