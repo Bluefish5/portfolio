@@ -13,9 +13,9 @@ export default function Home() {
             </div>
             
             <p className='m-10'>
-                Celem projektu było napisanie gry tylko i wyłącznie w terminalu
-                bez użycia żadnych biblotek graficznych następcie z użyciem takich 
-                bibliotek.
+                Celem projektu było napisanie gry całościowo w terminalu
+                bez użycia żadnych biblotek graficznych następnie napisanie
+                kolejnego projektu już z użyciem takich bibliotek.
             </p>
             <div className='flex '>
                 <img className="imgx" src="./snake/grapchic_snake_2.png"/>
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
             <p className='m-10'>
-                Aplikacji posiada takie elementy jak wyświetlenie najlepszychwyników graczy 
+                Aplikacja posiada takie elementy jak wyświetlenie najlepszych wyników graczy 
                 oraz zmiane trudności co wpływa na gre. 
             </p>
 
@@ -38,8 +38,8 @@ export default function Home() {
             </div>
 
             <p className='m-10'>
-                Gra to najpolplarniejsza gra w snakea zbiera się owocki zeby zdobywać 
-                punkty po zebraniu owocka nasza postać rośnie.
+                Ten projekt to najpopularniejsza gra w snakea, która polega na zbieraniu owoców
+                 zeby zdobywać punkty. Po zebraniu owocu nasza postać rośnie.
             </p>
 
             <div className='flex '>
@@ -48,9 +48,9 @@ export default function Home() {
             </div>
 
             <p className='m-10'>
-                Jęzeli uderzymy w ściane gra się kończy i da nam możliwość zapisu naszego wyniku
-                który jest przechowywany w pliku tak aby nastepna osoba która bedzie grała w snakea
-                dziedze mogła zobaczyć nasz wynik.
+                Jeżeli uderzymy w ściane gra się kończy i mamy możliwość zapisu naszego wyniku,
+                który jest przechowywany w pliku tak, aby następna osoba, która bedzie grała w snakea
+                będzie mogła zobaczyć nasz wynik.
             </p>
 
             <div className='flex mt-5'>

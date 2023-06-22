@@ -17,17 +17,17 @@ export default function Home() {
         </div>
 
         <p className='m-10'>
-            Projekt był skonstrułowany w celach braniu udzału w 
-            zawodach robotycznych w kategori mini-sumo. Na konstrukcje
-            robota składało się zaprojektowanie elektroniki,mechaniki oraz
-            zaprogramowanie go w odpowdni sposów.
+            Projekt został skonstruowany w celach brania udzału w 
+            zawodach robotycznych w kategorii mini-sumo. Na konstrukcje
+            robota składało się zaprojektowanie elektroniki, mechaniki oraz
+            zaprogramowanie go w odpowiedni sposób.
         </p>
 
-        <h2 className="m-10 text-2xl">Projekt i realizaja</h2>
+        <h2 className="m-10 text-2xl">Projekt i realizacja</h2>
 
         <p className='m-10'>
-            Projekt zaczęto od zaprojektowania schemetu płytki oraz samej płytki
-            która była odpowiedzialna za logike i sterowanie roborem. Projekt 
+            Projekt zaczęto od zaprojektowania schemetu płytki oraz samej płytki,
+            która była odpowiedzialna za logike i sterowanie robotem. Projekt 
             powstał przy pomocy programu Kicad.
         </p>
 
@@ -40,9 +40,9 @@ export default function Home() {
         
 
         <p className='m-10'>
-            Kolejnym etapem było zaprogramowanie mechaniki oraz ustawienia
+            Kolejnym etapem było zaprogramowanie mechaniki oraz ustawień
             elementów w robocie. Robot powstał w fusione do tego wygenerowano
-            dla niego rysunki oraz obiek odwzorowania w rzeczywistości.
+            dla niego rysunki oraz obiekt odwzorowania w rzeczywistości.
         </p>
 
         <div className='flex '>
@@ -53,14 +53,14 @@ export default function Home() {
         <img className="imgx mt-5" src="./minisumo/minisumo_6.png"/>
 
         <p className='m-10'>
-            Program został napisany za pomocą C++ oraz funckji arduno.
+            Program został napisany za pomocą C++ oraz funckji arduino.
         </p>
         <img className="imgx" src="./minisumo/minisumo_7.png"/>
 
         <p className='m-10'> 
             Ostatnim etapem było przełożenie projektów na rzeczywsty produkt.
-            Płytka PCB została wytrawona kwasem oraz za pomocą metody termoprzewodzącej.
-            Elemetych mechaniczne zostały wydrukowane na drukarce 3D.
+            Płytka PCB została wytrawiona kwasem oraz za pomocą metody termoprzewodzącej.
+            Elementy mechaniczne zostały wydrukowane na drukarce 3D.
         </p>
 
         <div className='flex '>

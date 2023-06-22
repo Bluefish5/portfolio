@@ -3,7 +3,7 @@ export default function Adaline() {
     return (
       
 <div className="max-w-5xl m-auto bg-neutral-500 text-white font-Sansation pb-1">
-    <h1 className="text-center text-6xl pt-5" >Adalidne</h1>
+    <h1 className="text-center text-6xl pt-5" >Adaline</h1>
     <div className="flex ">
         <p className="tag-icon">#python </p>
         <p className="tag-icon">#machine learning</p>
@@ -13,9 +13,9 @@ export default function Adaline() {
         <p className="tag-icon">#desktop app</p>
         <p className="tag-icon">#adaline</p>
     </div>
-    <p className="m-10" >Projekt w swojich założeniach miał na celu skonstruowanie aplikcaji desktopowej dzięki której była
-        by możliwa nauka sieci neuronów którym celem było by znalecienie takiej funkcji liniowej która odzieli między
-        sobą zbiory dwóch różnych zbiorów punktów.
+    <p className="m-10" >Projekt w swoich założeniach miał na celu skonstruowanie aplikcaji desktopowej dzięki, której byłaby
+                        możliwa nauka sieci neuronów, których celem byłoby znalezienie takiej funkcji liniowej, która oddzieli od
+                        siebie zbiory dwóch różnych zestawów punktów.
     </p>
     
     <div className="flex">
@@ -40,10 +40,10 @@ export default function Adaline() {
 
     <img className="imgx" src="./8.png"/>
     
-    <h2 className="m-10 text-2xl">Funkcojnalności i implementacja</h2>
+    <h2 className="m-10 text-2xl">Funkcjonalności i implementacja</h2>
     
     <p className="m-10">
-        Pierwszą i najważniejszą funkcjąlnościa było napisanie programu dzięki któremy było możliwe
+        Pierwszą i najważniejszą funkcjalnością było napisanie programu dzięki któremu było możliwe
     </p>
 
     <img className="imgx" src="./6.png"/>
@@ -57,9 +57,9 @@ export default function Adaline() {
     
     <p className='m-10'>
         Aplikacja posiada również parametry które da się ustawić
-        aby kontrolować dzizłanie programu takie jak możliwy minimalny błąd
+        aby kontrolować działanie programu takie jak możliwy minimalny błąd
         oraz ilość iteracji algorytmu znajdującego odpowiednią funkcje. Program
-        ma także rysowania jak zmieniała się wartość błedu przez wszytkie iteracje.
+        ma także rysowania jak zmieniała się wartość błędu przez wszytkie iteracje.
     </p>
 
     <div className="flex">

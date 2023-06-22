@@ -3,7 +3,7 @@ export default function Home() {
     return (
         <div className="max-w-5xl m-auto bg-neutral-500 text-white font-Sansation pb-1">
 
-        <h1 className="text-center text-6xl pt-5" >Anguar Plan</h1>
+        <h1 className="text-center text-6xl pt-5" >Angular Plan</h1>
 
         <div className="flex ">
             <p className="tag-icon">#angular</p>
@@ -15,9 +15,9 @@ export default function Home() {
         </div>
 
         <p className='m-10'>
-            Celem projektu było stworzenie aplikacji która była by wstanie
-            zarządzać użytkownikami oraz planami tych użutkowników. Główne funkcjonalności
-            jakie miały się znajdować to role(np. admin,user..), możliwość tworzenia grafiku
+            Celem projektu było stworzenie aplikacji która byłaby w stanie
+            zarządzać użytkownikami oraz planami tych użytkowników. Główne funkcjonalności
+            jakie miały się znajdować to role(np. admin,user..), możliwość tworzenia grafiku,
             zarządzenie użytkownikami oraz grafikami, baza danych dostępna na serwerze. 
         </p>
 
@@ -28,9 +28,9 @@ export default function Home() {
         </div>
 
         <p className='m-10'>
-            Aplikacja umożliwia wyświetlenie aktualnych dancyh użytkownika który jest zalogowanyc
-            ora jeżeli jest on adminem posiada możliwość dostępu do panelu admina.
-            Admin może zarządać użytkownikami oraz planai.
+            Aplikacja umożliwia wyświetlenie aktualnych danych użytkownika, który jest zalogowany
+            oraz jeżeli jest on adminem posiada możliwość dostępu do panelu admina.
+            Admin może zarządać użytkownikami oraz planami.
         </p>
 
         <div className='flex '>
@@ -40,8 +40,8 @@ export default function Home() {
         <img className="imgx mt-5" src="./angular/angular_5.png"/>
 
         <p className='m-10'>
-            Admin ma możliwość tworznie użytkowników oraz pranów poprzez wypełnienie
-            odpowniego formularza.
+            Admin ma możliwość tworzenia użytkowników oraz planów poprzez wypełnienie
+            odpowiedniego formularza.
         </p>
 
         <div className='flex '>
