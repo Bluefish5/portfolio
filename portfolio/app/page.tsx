@@ -70,8 +70,8 @@ export default function Home() {
   })
 
   return (
-  <div className='overflow-clip'>
-    <div className='fixed h-screen w-32 grid'>
+  <div className='overflow-clip '>
+    <div className='fixed h-screen w-32 grid invisible 2xl:visible'>
       <motion.div className='grid gap-5 my-auto' >
         <BsFill1CircleFill id='icon-1' className='text-main-color text-3xl mx-auto' onClick={goToTop}/>
         <BsThreeDotsVertical className='text-main-color text-3xl mx-auto'/>
@@ -92,9 +92,7 @@ export default function Home() {
         <h1 className=' text-9xl  font-GoodTimes text-main-color relative '>Portfolio</h1>
         <br></br>
         <p className='font-Sansation text-detail-color text-center text-2xl '>Rafał Grabowski</p>
-        <div className='text-detail-color relative top-80' onClick={handleClick}>
-          <MdKeyboardDoubleArrowDown className='mx-auto text-4xl'/>
-        </div>
+        
         
         
       </div>

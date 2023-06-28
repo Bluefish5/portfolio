@@ -16,12 +16,12 @@
 
 @font-face {
   font-family: 'GoodTimes';
-  src: url(../public/Goodtimes.otf);
+  src: url(../public/fonts/Goodtimes.otf);
 }
 
 @font-face {
   font-family: 'Sansation';
-  src: url(../public/Sansation_Regular.ttf);
+  src: url(../public/fonts/Sansation_Regular.ttf);
 }
 
 body {
