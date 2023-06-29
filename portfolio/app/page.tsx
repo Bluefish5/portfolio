@@ -18,6 +18,7 @@ import {
 import {AiFillGithub} from 'react-icons/ai';
 import {MdAlternateEmail} from 'react-icons/md';
 import {MdKeyboardDoubleArrowDown} from 'react-icons/md';
+import {BsGlobe2} from 'react-icons/bs';
 
 export default function Home() {
   
@@ -80,27 +81,53 @@ export default function Home() {
         <BsFill3CircleFill id='icon-3' className='text-main-color text-3xl mx-auto' onClick={goToBot}/>
       </motion.div>
       
-    </div>
+    </div >
 
     {/* <div className='absolute gap-10 flex right-20 top-10'>
       <button className='text-4xl text-main-color'><FaGlobeAfrica/></button>
       <button className='text-4xl text-main-color'><FaMoon/></button>
     </div> */}
+    <div className='mx-auto bg-main-color text-gray-300 m-auto p-5 text-9xl'>
+      
+      <BsGlobe2  className='mx-auto opacity-100' ></BsGlobe2>
+      
+    </div>
+    
+    
+              
+              <div className='mb-5 font-Sansation flex justify-center gap-5  mt-5'>
 
-    <div className='grid  h-screen place-items-center '>
+                <div className='flex justify-center gap-1'>
+                <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><MdAlternateEmail/></p>
+                <p className='text-[#E05550] underline font-Sansation my-auto text-xs' >r.grabowski2001@gmail.com</p>
+                </div>                
+                
+                
+                <div className='flex justify-center gap-1'>
+                  <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><BsFacebook/></p>
+                  <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://www.facebook.com/profile.php?id=100014171445153'>https://www.facebook.com/profile.php?id=100014171445153</a>
+                </div>
+
+                <div className='flex justify-center gap-1' >
+                  <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min'><AiFillGithub/></p>
+                  <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://github.com/Bluefish5'>https://github.com/Bluefish5</a>
+                </div>
+
+              </div>
+              
+
+    <div className='grid  place-items-center '>
       <div>
-        <h1 className=' text-9xl  font-GoodTimes text-main-color relative '>Portfolio</h1>
-        <br></br>
+        <h1 className=' text-7xl  font-GoodTimes text-main-color relative '>Portfolio</h1>
+        
         <p className='font-Sansation text-detail-color text-center text-2xl '>Rafał Grabowski</p>
-        
-        
-        
       </div>
     </div>
-    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60 mb-10' ref={projectsSection} >Projekty:</h1>
+
+    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60 mb-10 mt-40' ref={projectsSection} >Projekty:</h1>
 
     
-    <div className='flex flex-wrap place-content-center relative m-auto  w-[80vw]'> 
+    <div className='flex flex-wrap place-content-center relative m-auto w-[80vw]'> 
       {projects.map((x,index) =>
         <motion.div 
           whileHover={{scale:1.1}} 
@@ -110,7 +137,7 @@ export default function Home() {
             
           <div key={index} className="relative">
           {x.priority=="high"?
-            (<img className='absolute -left-28 -top-24 h-56 w-56' src='./page/star.svg'></img>):("")}
+            (<img className='absolute -left-12 -top-6 h-56 w-56' src='./page/star.svg'></img>):("")}
             <a href={x.url} className="font-Sansation ">
               <img src={x.imageName} className='center rounded-3xl w-96 h-60 object-fit'/>
             </a>
@@ -123,66 +150,9 @@ export default function Home() {
       )}   
     </div>
 
-      <table className='mx-auto bg-main-color p-5 mt-5 w-[25vw] text-center rounded-3xl'>
-        <thead>
-          <tr>
-            <td colSpan={2}>
-              <h1 className='font-Sansation text-detail-color text-4xl text-center mt-5'>Kontakt</h1>
-            </td>
-          </tr>
-          <tr className='text-detail-color text-2xl font-Sansation'>
-            {/* <th>Wyślij wiadomość</th> */}
-            {/* <th>Media</th> */}
-          </tr>
-        </thead>
+      
 
-        <tbody>
-          <tr>
-            {/* <th className='text-detail-color font-Sansation'>
-              <input></input>
-              <input></input>
-              <input></input>
-              <input></input>
-              <button>Wyślij</button>
-            </th> */}
-
-            <th>
-              <div className='block'>
-              
-              <div className='mb-5 font-Sansation'>
-
-                <div className='flex justify-center gap-5'>
-                <p className='font-Sansation text-detail-color text-3xl pl-30 min-w-min '><MdAlternateEmail/></p>
-                <p className='text-detail-color font-Sansation my-auto text-xs' >r.grabowski2001@gmail.com</p>
-                </div>
-
-                
-                
-                <div className='flex justify-center gap-5'>
-                  <p className='font-Sansation text-detail-color text-3xl pl-30 min-w-min'><BsDiscord/></p>
-                  <a className='text-detail-color font-Sansation my-auto text-xs' target="_blank" href='https://discordapp.com/users/Rafal#0570'>https://discordapp.com/users/Rafal#0570</a>
-                </div>
-                
-                
-                
-                <div className='flex justify-center gap-5'>
-                  <p className='font-Sansation text-detail-color text-3xl pl-30 min-w-min '><BsFacebook/></p>
-                  <a className='text-detail-color font-Sansation my-auto text-xs' target="_blank" href='https://www.facebook.com/profile.php?id=100014171445153'>https://www.facebook.com/profile.php?id=100014171445153</a>
-                </div>
-
-                <div className='flex justify-center gap-5 '>
-                  <p className='font-Sansation text-detail-color text-3xl pl-30 min-w-min'><AiFillGithub/></p>
-                  <a className='text-detail-color font-Sansation my-auto text-xs' target="_blank" href='https://github.com/Bluefish5'>https://github.com/Bluefish5</a>
-                </div>
-
-              </div>
-              </div>
-            </th>
-          </tr>
-        </tbody>
-      </table>
-
-    <div className='mx-auto bg-main-color p-5 mt-5'>
+    <div className='mx-auto p-5 mt-5'>
       <p className='text-center text-detail-color font-Sansation text-xs'>Copyright © 2023 - rafal and contributors</p>
     </div>
   </div>
