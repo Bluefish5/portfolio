@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     title:"Adaline",
-    imageName: "Adaline.gif",
+    imageName: "/page/Adaline.gif",
     content: "Jest to projekt, który przedstawia uczenie maszynowe napisane w Pytonie",
     url: "/adaline"
   },
