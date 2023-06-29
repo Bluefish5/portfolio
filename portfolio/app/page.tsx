@@ -97,26 +97,20 @@ export default function Home() {
         
       </div>
     </div>
-    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60' ref={projectsSection} >Projekty:</h1>
+    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60 mb-10' ref={projectsSection} >Projekty:</h1>
 
     
-    {/* <div className='mx-auto flex relative left-32 bg-white rounded-3xl m-5 '>
-        <button className='right-[220px] top-[220px] absolute w-20 h-20 bg-detail-color rounded-full text-white'>{">"}</button>
-        <button className=' top-[220px] absolute w-20 h-20 bg-detail-color rounded-full text-white'>{"<"}</button>
-        <img src='/adaline_app.png' className='object-fill'></img>
-        <p className='flex-auto text-center bg-'>opis</p>
-    </div> */}
-    
-
-
-    <div className='flex flex-wrap place-content-center relative left-20 w-[95vw]'> 
+    <div className='flex flex-wrap place-content-center relative m-auto  w-[80vw]'> 
       {projects.map((x,index) =>
         <motion.div 
           whileHover={{scale:1.1}} 
           transition={{ delay: 0.2 }}
           key={index} 
           className='m-4 grid place-items-center '>
+            
           <div key={index} className="relative">
+          {x.priority=="high"?
+            (<img className='absolute -left-28 -top-24 h-56 w-56' src='./page/star.svg'></img>):("")}
             <a href={x.url} className="font-Sansation ">
               <img src={x.imageName} className='center rounded-3xl w-96 h-60 object-fit'/>
             </a>

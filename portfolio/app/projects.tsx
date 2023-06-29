@@ -3,19 +3,22 @@ export const projects = [
     title:"Angular Grafik",
     imageName: "/page/Angular.gif",
     content: "Jest to projekt napisany w Angularze, który ma na celu generować grafik/tabele.",
-    url: "/angular"
+    url: "/angular",
+    priority: "high"
   },
   {
     title:"Mini-Sumo",
     imageName: "/page/MiniSumo.png",
     content: "Jest to projekt robota, którego zadaniem jest wypchnięcie przeciwnika z pola ringu.",
-    url: "/minisumo"
+    url: "/minisumo",
+    priority: "high"
   },
   {
     title:"Adaline",
     imageName: "/page/Adaline.gif",
     content: "Jest to projekt, który przedstawia uczenie maszynowe napisane w Pytonie",
-    url: "/adaline"
+    url: "/adaline",
+    priority: "high"
   },
   {
     title:"Snake 2",
