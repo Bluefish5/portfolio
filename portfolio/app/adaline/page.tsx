@@ -19,8 +19,8 @@ export default function Adaline() {
     </p>
     
     <div className="flex">
-        <img className="imgx" src="./adaline_app.png"/>
-        <img className="imgx" src="./6.png"/>
+        <img className="imgx" src="./adaline/adaline_9.png"/>
+        <img className="imgx" src="./adaline/adaline_6.png"/>
     </div>
     
 
@@ -32,13 +32,13 @@ export default function Adaline() {
         wyznacza się w ten sam sposób, co w przypadku uczenia perceptronu. Jednak w przypadku
         neuronu typu Adaline porównuje się sygnał wzorcowy d z sygnałem s, na wyjściu części
         liniowej neuronu (nie uwzględnia się funkcji aktywacji).</p>
-    <img className="imgx" src="./7.png"/>
+    <img className="imgx" src="./adaline/adaline_7.png"/>
 
     <p className="m-10" >Różnicę między sygnałem wzorcowym, a sygnałem s nazywamy błędem ε = − d s. Uczenie
         neuronu, czyli dobór wag, sprowadza się do minimalizacji funkcji określonej w sposób
         następujący:</p>
 
-    <img className="imgx" src="./8.png"/>
+    <img className="imgx" src="./adaline/adaline_8.png"/>
     
     <h2 className="m-10 text-2xl">Funkcjonalności i implementacja</h2>
     
@@ -46,13 +46,13 @@ export default function Adaline() {
         Pierwszą i najważniejszą funkcjalnością było napisanie programu dzięki któremu było możliwe
     </p>
 
-    <img className="imgx" src="./6.png"/>
+    <img className="imgx" src="./adaline/adaline_6.png"/>
 
     <p className="m-10">Do programu dane wprowadzane są poprzez podanie pliku textowego który musi być odpowiednio sformatowany.</p>
 
     <div className="flex">
-        <img className="imgx" src="./1.png"/>
-        <img className="imgx" src="./2.png"/>
+        <img className="imgx" src="./adaline/adaline_1.png"/>
+        <img className="imgx" src="./adaline/adaline_2.png"/>
     </div>
     
     <p className='m-10'>
@@ -63,8 +63,8 @@ export default function Adaline() {
     </p>
 
     <div className="flex">
-        <img className="imgx" src="./3.png"/>
-        <img className="imgx" src="./5.png"/>
+        <img className="imgx" src="./adaline/adaline_3.png"/>
+        <img className="imgx" src="./adaline/adaline_5.png"/>
     </div>
     
 

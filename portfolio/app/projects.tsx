@@ -1,13 +1,13 @@
 export const projects = [
   {
     title:"Angular Grafik",
-    imageName: "Angular.gif",
+    imageName: "/page/Angular.gif",
     content: "Jest to projekt napisany w Angularze, który ma na celu generować grafik/tabele.",
     url: "/angular"
   },
   {
     title:"Mini-Sumo",
-    imageName: "MiniSumo.png",
+    imageName: "/page/MiniSumo.png",
     content: "Jest to projekt robota, którego zadaniem jest wypchnięcie przeciwnika z pola ringu.",
     url: "/minisumo"
   },
@@ -19,32 +19,32 @@ export const projects = [
   },
   {
     title:"Snake 2",
-    imageName: "Snake.gif",
+    imageName: "/page/Snake.gif",
     content: "Jest to projekt gry Snake napisanej graficznie oraz całkowicie w termianlu.",
     url: "/snake"
   },
   {
     title:"Dictionary",
-    imageName: "Dictionary.gif",
+    imageName: "/page/Dictionary.gif",
     content: "Jest to projekt prostego słownika w konsoli napisany w jezyku C z wykorzystaniem listy powiązanej.",
     url: "/dictionary"
   },
   {
     title:"Airplane Database",
-    imageName: "Airplane.gif",
+    imageName: "/page/Airplane.gif",
     content: "Jest to projekt prostej bazy danych pozwalającej na dodawanie i usuwanie elementów za pomocą nowoczesnego interfaceu.",
     url: "/airplane-database"
   },
 
   {
     title:"Tetris",
-    imageName: "Tetris.gif",
+    imageName: "/page/Tetris.gif",
     content: "Jest to projekt gry Tetris napisanej na Arduino.",
     url: "/tetris"
   },
   {
     title:"Radar",
-    imageName: "Radar.gif",
+    imageName: "/page/Radar.gif",
     content: "Jest to projekt prostego radaru z wykorzystaniem Pygame oraz Arduino.",
     url: "/radar"
   },
