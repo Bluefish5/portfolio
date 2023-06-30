@@ -51,11 +51,12 @@ export const projects = [
     content: "Jest to projekt prostego radaru z wykorzystaniem Pygame oraz Arduino.",
     url: "/radar"
   },
+  {
+    title:"Quizz",
+    imageName: "/page/Quizz.gif",
+    content: "Jest to projekt aplikacji mobilnej do uczenia się jezyków.",
+    url: "/quizz"
+  }
 ]
-// ,
-//   {
-//     title:"Quizz",
-//     imageName: "Quizz.gif",
-//     content: "Jest to projekt aplikacji mobilnej do uczenia się jezyków."
-//   }
+
   

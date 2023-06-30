@@ -14,7 +14,16 @@ export default function Home() {
                 <p className="tag-icon">#database</p>
             </div>
             
-            <p className='m-10'>TODO</p>
+            <p className='m-10'>Projekt w swojich załorzeniach miał na celu stworzenie aplikacji która posiada
+            troche bradziej rozbudowaną baze danych z relacjami. Aplikacja miała zostać wykonana obiektowo oraz
+            z wykorzystaniem biblioteki która umożliwia stworzenie gui</p>
+
+            <div className="flex">
+                <img className="imgx" src="./airplane/airplane_1.png"/>
+                <img className="imgx" src="./airplane/airplane_2.png"/>
+                
+            </div>
+            <img className="imgx mx-auto mt-5" src="./airplane/airplane_3.png"/>
 
             <div className="bg-main-color mt-10 rounded-3xl text-center p-4 w-80 mx-auto flex gap-2 mb-4">
             <RiArrowGoBackFill className='text-2xl my-auto '/>
