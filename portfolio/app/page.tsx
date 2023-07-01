@@ -86,48 +86,31 @@ export default function Home() {
     {/* <div className='absolute gap-10 flex right-20 top-10'>
       <button className='text-4xl text-main-color'><FaGlobeAfrica/></button>
       <button className='text-4xl text-main-color'><FaMoon/></button>
-    </div> */}
+    </div> 
+
     <div className='mx-auto bg-main-color text-gray-300 m-auto p-5 text-9xl'>
       
       <BsGlobe2  className='mx-auto opacity-100' ></BsGlobe2>
       
     </div>
+    */}
     
     
               
-              <div className='mb-5 font-Sansation flex justify-center gap-5  mt-5'>
-
-                <div className='flex justify-center gap-1'>
-                <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><MdAlternateEmail/></p>
-                <p className='text-[#E05550] underline font-Sansation my-auto text-xs' >r.grabowski2001@gmail.com</p>
-                </div>                
-                
-                
-                <div className='flex justify-center gap-1'>
-                  <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><BsFacebook/></p>
-                  <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://www.facebook.com/profile.php?id=100014171445153'>https://www.facebook.com/profile.php?id=100014171445153</a>
-                </div>
-
-                <div className='flex justify-center gap-1' >
-                  <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min'><AiFillGithub/></p>
-                  <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://github.com/Bluefish5'>https://github.com/Bluefish5</a>
-                </div>
-
-              </div>
               
 
-    <div className='grid  place-items-center '>
+    <div className='grid place-items-center h-[60vh]'>
       <div>
-        <h1 className=' text-7xl  font-GoodTimes text-main-color relative '>Portfolio</h1>
+        <h1 className=' text-9xl  font-GoodTimes text-main-color relative  mb-10 mt-40'>Portfolio</h1>
         
-        <p className='font-Sansation text-detail-color text-center text-2xl '>Rafał Grabowski</p>
+        <p className='font-Sansation text-detail-color text-center text-4xl '>Rafał Grabowski</p>
       </div>
     </div>
 
-    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60 mb-10 mt-40' ref={projectsSection} >Projekty:</h1>
+    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60 mt-40' ref={projectsSection} >Projekty:</h1>
 
     
-    <div className='flex flex-wrap place-content-center relative m-auto w-[80vw]'> 
+    <div className='flex flex-wrap place-content-center relative m-auto w-[90vw]'> 
       {projects.map((x,index) =>
         <motion.div 
           whileHover={{scale:1.1}} 
@@ -136,7 +119,7 @@ export default function Home() {
           className='m-4 grid place-items-center '>
             
           <div key={index} className="relative">
-          {x.priority=="high"?
+          {x.priority=="low"?
             (<img className='absolute -left-12 -top-6 h-56 w-56' src='./page/star.svg'></img>):("")}
             <a href={x.url} className="font-Sansation ">
               <img src={x.imageName} className='center rounded-3xl w-96 h-60 object-fit'/>
@@ -150,11 +133,33 @@ export default function Home() {
       )}   
     </div>
 
-      
+        <div className='bg-main-color mt-10'>
 
-    <div className='mx-auto p-5 mt-5'>
-      <p className='text-center text-detail-color font-Sansation text-xs'>Copyright © 2023 - rafal and contributors</p>
+        
+    <div className='font-Sansation flex justify-center gap-5 pt-10'>
+            
+    <div className='flex justify-center gap-1'>
+    <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><MdAlternateEmail/></p>
+    <p className='text-[#E05550] underline font-Sansation my-auto text-xs' >r.grabowski2001@gmail.com</p>
+    </div>                
+
+
+    <div className='flex justify-center gap-1'>
+      <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><BsFacebook/></p>
+      <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://www.facebook.com/profile.php?id=100014171445153'>https://www.facebook.com/profile.php?id=100014171445153</a>
     </div>
+
+    <div className='flex justify-center gap-1' >
+      <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min'><AiFillGithub/></p>
+      <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://github.com/Bluefish5'>https://github.com/Bluefish5</a>
+    </div>
+
+    </div>
+
+        <div className='mx-auto p-5 mt-5 '>
+          <p className='text-center text-detail-color font-Sansation text-xs'>Copyright © 2023 - rafal and contributors</p>
+        </div>
+  </div>
   </div>
   )
 }
