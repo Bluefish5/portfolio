@@ -101,13 +101,13 @@ export default function Home() {
 
     <div className='grid place-items-center h-[60vh]'>
       <div>
-        <h1 className=' text-9xl  font-GoodTimes text-main-color relative  mb-10 mt-40'>Portfolio</h1>
+        <h1 className='text-7xl 2xl:text-9xl  font-GoodTimes text-main-color relative  mb-10 mt-40'>Portfolio</h1>
         
         <p className='font-Sansation text-detail-color text-center text-4xl '>Rafał Grabowski</p>
       </div>
     </div>
 
-    <h1 className='font-Sansation text-detail-color text-6xl pl-30 relative left-60 mt-40' ref={projectsSection} >Projekty:</h1>
+    <h1 className='font-Sansation text-detail-color text-4xl 2xl:text-6xl pl-30 relative left-60 mt-40' ref={projectsSection} >Projekty:</h1>
 
     
     <div className='flex flex-wrap place-content-center relative m-auto w-[90vw]'> 
