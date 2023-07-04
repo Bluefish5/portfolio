@@ -144,10 +144,10 @@ export default function Home() {
     </div>                
 
 
-    <div className='flex justify-center gap-1'>
+    {/* <div className='flex justify-center gap-1'>
       <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min '><BsFacebook/></p>
       <a className='text-[#E05550] underline font-Sansation my-auto text-xs' target="_blank" href='https://www.facebook.com/profile.php?id=100014171445153'>https://www.facebook.com/profile.php?id=100014171445153</a>
-    </div>
+    </div> */}
 
     <div className='flex justify-center gap-1' >
       <p className='font-Sansation text-detail-color text-2xl pl-30 min-w-min'><AiFillGithub/></p>

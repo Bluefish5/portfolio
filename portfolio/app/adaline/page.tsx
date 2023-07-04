@@ -13,7 +13,7 @@ export default function Adaline() {
         <p className="tag-icon">#desktop app</p>
         <p className="tag-icon">#adaline</p>
     </div>
-    <p className="m-10" >Projekt w swoich założeniach miał na celu skonstruowanie aplikcaji desktopowej dzięki, której byłaby
+    <p className="m-10" >Projekt w swoich założeniach miał na celu skonstruowanie aplikcaji desktopowej dzięki której byłaby
                         możliwa nauka sieci neuronów, których celem byłoby znalezienie takiej funkcji liniowej, która oddzieli od
                         siebie zbiory dwóch różnych zestawów punktów.
     </p>
@@ -43,7 +43,7 @@ export default function Adaline() {
     <h2 className="m-10 text-2xl">Funkcjonalności i implementacja</h2>
     
     <p className="m-10">
-        Pierwszą i najważniejszą funkcjalnością było napisanie programu dzięki któremu było możliwe
+        Pierwszą i najważniejszą funkcjalnością było napisanie programu dzięki któremu było możliwe uczenie neuronu.
     </p>
 
     <img className="imgx" src="./adaline/adaline_6.png"/>

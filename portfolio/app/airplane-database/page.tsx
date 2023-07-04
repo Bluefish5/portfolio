@@ -14,7 +14,7 @@ export default function Home() {
                 <p className="tag-icon">#database</p>
             </div>
             
-            <p className='m-10'>Projekt w swojich załorzeniach miał na celu stworzenie aplikacji która posiada
+            <p className='m-10'>Projekt w swoich założeniach miał na celu stworzenie aplikacji, która posiada
             troche bradziej rozbudowaną baze danych z relacjami. Aplikacja miała zostać wykonana obiektowo oraz
             z wykorzystaniem biblioteki która umożliwia stworzenie gui</p>
 

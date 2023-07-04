@@ -15,7 +15,7 @@ export default function Home() {
         </div>
 
         <p className='m-10'>
-            Celem projektu było stworzenie aplikacji która byłaby w stanie
+            Celem projektu było stworzenie aplikacji, która byłaby w stanie
             zarządzać użytkownikami oraz planami tych użytkowników. Główne funkcjonalności
             jakie miały się znajdować to role(np. admin,user..), możliwość tworzenia grafiku,
             zarządzenie użytkownikami oraz grafikami, baza danych dostępna na serwerze. 
@@ -51,7 +51,7 @@ export default function Home() {
 
         <p className='m-10'>
             Wszytkie dane przechowywane są na serwerze zdalnym udostępaniym przed google
-            w tym przypadku jest to firestore
+            w tym przypadku jest to firestore.
         </p>
 
         <div className='flex '>
